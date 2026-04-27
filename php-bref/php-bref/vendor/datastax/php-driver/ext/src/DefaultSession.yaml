@@ -1,0 +1,77 @@
+---
+DefaultSession:
+  comment: ""
+  methods:
+    schema:
+      comment: ""
+      return:
+        comment: ""
+        type: Schema
+    execute:
+      comment: ""
+      return:
+        comment: ""
+        type: Rows
+      params:
+        statement:
+          comment: ""
+          type: string|Statement
+        options:
+          comment: ""
+          type: array|ExecutionOptions|null
+    executeAsync:
+      comment: ""
+      params:
+        statement:
+          comment: ""
+          type: string|Statement
+        options:
+          comment: ""
+          type: array|ExecutionOptions|null
+      return:
+        comment: ""
+        type: FutureRows
+    prepare:
+      comment: ""
+      params:
+        cql:
+          comment: ""
+          type: string
+        options:
+          comment: ""
+          type: array|ExecutionOptions|null
+      return:
+        comment: ""
+        type: PreparedStatement
+    prepareAsync:
+      comment: ""
+      params:
+        cql:
+          comment: ""
+          type: string
+        options:
+          comment: ""
+          type: array|ExecutionOptions|null
+      return:
+        comment: ""
+        type: FuturePreparedStatement
+    close:
+      comment: ""
+      params:
+        timeout:
+          comment: ""
+          type: double
+      return:
+        comment: ""
+        type: "null"
+    closeAsync:
+      comment: ""
+      return:
+        comment: ""
+        type: FutureClose
+    metrics:
+      comment: ""
+      return:
+        comment: ""
+        type: array
+...

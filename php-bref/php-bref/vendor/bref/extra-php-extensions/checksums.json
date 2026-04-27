@@ -1,0 +1,18 @@
+{
+    "ds-php-80": "3ac724f1507a22a67299ac2d4f4bbda2",
+    "gd-php-80": "335e9a9a1ed3382c01293e4c0f13b5b2",
+    "gmp-php-80": "239d8bbdebd17c951a416fa1798692b7",
+    "igbinary-php-80": "4c293f167ffa6a1ecc75b7d5c5a07013",
+    "imagick-php-80": "fc7c7e396565f1121077c59932ff285a",
+    "ldap-php-80": "4af191177c16dfa221567b338eb58815",
+    "mailparse-php-80": "c27d4e271dcf873ff318b0d6eb940c51",
+    "memcache-php-80": "c3ae49f188ccbb17f8498fad8e909a8f",
+    "mongodb-php-80": "23c388c85a95e637ddce66d69af2cc2d",
+    "odbc-snowflake-php-80": "431007abb1ea2e3dc26c748311f3e023",
+    "pcov-php-80": "c631e6947dd69b4f703844aa8f017497",
+    "pgsql-php-80": "a8983cf4f4e255f9f49bf13becf9d9d9",
+    "redis-php-80": "b33bb5ad2fa07e325b972d6759b482bf",
+    "uuid-php-80": "8326ea5beb0a64dbda618af5de9a9b37",
+    "xdebug-php-80": "87cce18a36803f9b850e5c4e0f5791cb",
+    "yaml-php-80": "6d3b1b4eec7e5667a80849a6feb742a3"
+}

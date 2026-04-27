@@ -1,0 +1,14 @@
+{
+    "name": "vscode/php-dev-container",
+    "require": {
+        "ext-pdo": "*",
+        "bref/bref": "^2.4",
+        "datastax/php-driver": "^1.3",
+        "bref/extra-php-extensions": "^1.7"
+    },
+    "config": {
+        "platform": {
+            "php": "8.0.30"
+        }
+    }
+}

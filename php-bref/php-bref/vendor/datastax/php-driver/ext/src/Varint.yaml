@@ -1,0 +1,96 @@
+---
+Varint:
+  comment: A PHP representation of the CQL `varint` datatype
+  methods:
+    __construct:
+      comment: Creates a new variable length integer.
+      params:
+        value:
+          comment: integer value as a string
+          type: string
+    __toString:
+      comment: Returns the integer value.
+      return:
+        comment: integer value
+        type: string
+    type:
+      comment: The type of this varint.
+      return:
+        comment: ""
+        type: Type
+    value:
+      comment: Returns the integer value.
+      return:
+        comment: integer value
+        type: string
+    add:
+      comment: ""
+      params:
+        num:
+          comment: ""
+          type: Numeric
+      return:
+        comment: ""
+        type: Numeric
+    sub:
+      comment: ""
+      params:
+        num:
+          comment: ""
+          type: Numeric
+      return:
+        comment: ""
+        type: Numeric
+    mul:
+      comment: ""
+      params:
+        num:
+          comment: ""
+          type: Numeric
+      return:
+        comment: ""
+        type: Numeric
+    div:
+      comment: ""
+      params:
+        num:
+          comment: ""
+          type: Numeric
+      return:
+        comment: ""
+        type: Numeric
+    mod:
+      comment: ""
+      params:
+        num:
+          comment: ""
+          type: Numeric
+      return:
+        comment: ""
+        type: Numeric
+    abs:
+      comment: ""
+      return:
+        comment: ""
+        type: Numeric
+    neg:
+      comment: ""
+      return:
+        comment: ""
+        type: Numeric
+    sqrt:
+      comment: ""
+      return:
+        comment: ""
+        type: Numeric
+    toInt:
+      comment: ""
+      return:
+        comment: ""
+        type: int
+    toDouble:
+      comment: ""
+      return:
+        comment: ""
+        type: float
+...

@@ -79,7 +79,7 @@ sam deploy --guided
 
 ## Notes
 
-- The contact point `18.183.26.121` is a public IP of the ScyllaDB host — in production, move that behind VPC peering or PrivateLink and lock the SG to the Lambda's ENI.
+- The contact point `xx.xx.xx.xx` is a public IP of the ScyllaDB host, move that behind VPC peering or PrivateLink and lock the SG to the Lambda's ENI.
 - The `keyspace1` / `standard1` combination is the default schema produced by `cassandra-stress` — this handler was a smoke-test during capacity planning, not a real business query.
 - The stock `php-81` Bref layer does not include the Cassandra extension — in practice this deployment used a custom layer or a community extension layer alongside it. Verify before redeploying.
 - Demonstrates: PHP on Lambda (Bref), CQL from PHP, Cassandra ↔ ScyllaDB wire compatibility, SAM-exported Lambda configs.

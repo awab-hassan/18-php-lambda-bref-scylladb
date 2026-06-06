@@ -12,7 +12,7 @@ return function ($event, Context $context) {
     $password = 'xxx';
 
     try {
-        // Create a Cassandra cluster with credentials
+        // Create a Cassandra cluster with credentialss
         $cluster = Cassandra::cluster()
             ->withContactPoints(implode(',', $contactPoints))
             ->withCredentials($username, $password)
